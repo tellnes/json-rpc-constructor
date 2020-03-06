@@ -1,0 +1,33 @@
+{
+  "name": "json-rpc-constructor",
+  "version": "1.0.0",
+  "description": "JSON RPC Constructor",
+  "main": "dist/json-rpc.js",
+  "types": "dist/json-rpc.d.ts",
+  "license": "MIT",
+  "dependencies": {
+    "debug": "^4.1.1",
+    "jsonrpc-lite": "^2.1.0"
+  },
+  "devDependencies": {
+    "@types/debug": "^4.1.5",
+    "@types/node": "^13.7.7",
+    "ts-node": "^8.6.2",
+    "typescript": "^3.8.3"
+  },
+  "scripts": {
+    "prepublishOnly": "tsc"
+  },
+  "files": [
+    "src/json-rpc.ts",
+    "dist/json-rpc.js",
+    "dist/json-rpc.d.ts",
+    "example.ts",
+    "Readme.md"
+  ],
+  "repository": "git@github.com:tellnes/json-rpc-constructor.git",
+  "author": "Christian Vaagland Tellnes <christian@tellnes.no>",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.com"
+  }
+}

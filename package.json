@@ -1,6 +1,6 @@
 {
   "name": "json-rpc-constructor",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "JSON RPC Constructor",
   "main": "dist/json-rpc.js",
   "types": "dist/json-rpc.d.ts",
@@ -26,8 +26,5 @@
     "Readme.md"
   ],
   "repository": "git@github.com:tellnes/json-rpc-constructor.git",
-  "author": "Christian Vaagland Tellnes <christian@tellnes.no>",
-  "publishConfig": {
-    "registry": "https://registry.npmjs.com"
-  }
+  "author": "Christian Vaagland Tellnes <christian@tellnes.no>"
 }
